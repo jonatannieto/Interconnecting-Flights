@@ -27,10 +27,13 @@ public class RyanairProperties {
         @NotNull
         private String routes;
 
+        @NotNull
+        private String schedule;
+
         /**
          * Gets routes URL from application.properties.
          *
-         * @return the routes
+         * @return the Api routes URL
          */
         public String getRoutes() {
             return routes;
@@ -43,6 +46,24 @@ public class RyanairProperties {
          */
         public void setRoutes(String routes) {
             this.routes = routes;
+        }
+
+        /**
+         * Gets schedule URL from application.properties.
+         *
+         * @return the Api schedule URL
+         */
+        public String getSchedule() {
+            return schedule;
+        }
+
+        /**
+         * Sets application.properties schedule URL.
+         *
+         * @param schedule the Api routes URL
+         */
+        public void setSchedule(String schedule) {
+            this.schedule = schedule;
         }
     }
 }

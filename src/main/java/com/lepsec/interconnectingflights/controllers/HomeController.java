@@ -1,7 +1,8 @@
 package com.lepsec.interconnectingflights.controllers;
 
 import com.lepsec.interconnectingflights.domain.Route;
-import com.lepsec.interconnectingflights.integration.RyanairRoutesService;
+import com.lepsec.interconnectingflights.domain.Schedule;
+import com.lepsec.interconnectingflights.integration.RyanairService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,15 +14,15 @@ import java.util.List;
  */
 @RestController
 public class HomeController {
-    private RyanairRoutesService ryanairRoutesService;
+    private RyanairService ryanairService;
 
     @Autowired
-    public HomeController(RyanairRoutesService ryanairRoutesService) {
-        this.ryanairRoutesService = ryanairRoutesService;
+    public HomeController(RyanairService ryanairService) {
+        this.ryanairService = ryanairService;
     }
 
     @RequestMapping(name = "/")
-    public List<Route> getIndex(){
-        return ryanairRoutesService.getRoutes();
+    public Schedule getIndex(){
+        return ryanairService.getSchedule("DUB", "WRO", 2017, 3);
     }
 }
