@@ -1,7 +1,5 @@
 package com.lepsec.interconnectingflights.domain;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
