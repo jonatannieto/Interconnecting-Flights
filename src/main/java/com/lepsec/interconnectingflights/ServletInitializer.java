@@ -1,4 +1,4 @@
-package com.lepsec;
+package com.lepsec.interconnectingflights;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

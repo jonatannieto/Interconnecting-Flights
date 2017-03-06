@@ -1,4 +1,4 @@
-package com.lepsec;
+package com.lepsec.interconnectingflights;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

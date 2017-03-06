@@ -1,4 +1,4 @@
-package com.lepsec.configuration;
+package com.lepsec.interconnectingflights.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

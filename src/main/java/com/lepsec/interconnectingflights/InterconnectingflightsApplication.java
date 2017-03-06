@@ -1,6 +1,6 @@
-package com.lepsec;
+package com.lepsec.interconnectingflights;
 
-import com.lepsec.configuration.RyanairProperties;
+import com.lepsec.interconnectingflights.configuration.RyanairProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

@@ -1,7 +1,7 @@
-package com.lepsec.integration;
+package com.lepsec.interconnectingflights.integration;
 
-import com.lepsec.configuration.RyanairProperties;
-import com.lepsec.domain.Route;
+import com.lepsec.interconnectingflights.configuration.RyanairProperties;
+import com.lepsec.interconnectingflights.domain.Route;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
-package com.lepsec.controllers;
+package com.lepsec.interconnectingflights.controllers;
 
-import com.lepsec.domain.Route;
-import com.lepsec.integration.RyanairRoutesService;
+import com.lepsec.interconnectingflights.domain.Route;
+import com.lepsec.interconnectingflights.integration.RyanairRoutesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

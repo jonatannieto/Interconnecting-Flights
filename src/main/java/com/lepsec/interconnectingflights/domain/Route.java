@@ -1,4 +1,4 @@
-package com.lepsec.domain;
+package com.lepsec.interconnectingflights.domain;
 
 import java.io.Serializable;
 
